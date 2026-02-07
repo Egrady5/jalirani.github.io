@@ -1,18 +1,161 @@
+<!-- 
+   Author: https://github.com/JalIrani
+   Adopted from: https://github.com/jordansinger 
+-->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <h1>My Portfolio</h1>
-    <h2>Classes Taken</h2>
-    <p>Introduction to Programming</p>
-    <p>Data Structures</p>
-    <p>Web Development</p>
-    <h2>Ongoing Courses</h2>
-    <p>Advanced Algorithms</p>
-    <p>Machine Learning</p>
-</body>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width" />
+      <title>Eldridge Grady</title>
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <meta name="description" content="Jal Irani" />
+      <meta property="og:title" content="Jal Irani" />
+      <meta property="og:description" content="Jal Irani" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+      <script src="https://cdn.tailwindcss.com"></script>
+   </head>
+
+   <body class="bg-white dark:bg-neutral-900 text-black dark:text-white overflow-x-hidden">
+      <div id="hero" class="p-8 border-b border-neutral-100 dark:border-neutral-800">
+         <h1 class="text-xl text-md font-medium">Eldridge Grady</h1>
+         <h2 class="text-sm opacity-60">Odenton, MD</h2>
+         <a href="https://www.linkedin.com/in/eldridgegradyiii/" class="px-0.5"><i class="fab fa-linkedin fa-md"></i></a>
+         <a href="https://github.com/Egrady5" class="px-0.5"><i class="fab fa-github fa-md"></i></a>
+         <a href="mailto:egrady5@students.towson.edu" class="px-0.5"><i class="fas fa-envelope fa-md"></i></a>    
+      </div>
+
+      <li class="pb-4">
+         <div class="p-8">
+           <h3 class="text-md font-medium">About me</h3>
+           <h4 class="text-md opacity-60">whoami</h4>
+         </div>
+         <div class="pl-8">
+           <div class="border border-neutral-100 dark:border-neutral-800 rounded-lg p-4 max-w-[90%]">
+             <p class="text-md opacity-60">
+               I am a senior computer science student at Towson Univerisity. My main interests are artifical intellegence and software developement. The programming languages I am proffiecnet in are Java and C++, with some minor experience with SQL.
+             </p>
+           </div>
+         </div>
+       </li>
+
+      <!-- Classes Taken -->
+      <ul id="professional" class="border-b border-neutral-100 dark:border-neutral-800">
+         <li class="pb-8">
+            <div class="p-8">
+               <h3 class="text-md font-medium">Classes Taken</h3>
+               <h4 class="text-md opacity-60">At Towson Univeristy</h4>
+            </div>
+
+            <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
+                           <h2>Courses Taken</h2>
+            <ul class="book">
+                <li>COSC 412: Software Engineering</li>
+                <li>COSC 432: Systems Requirements and Anaylsis</li>
+                <li>COSC 455: Programming Langauges/implementation</em></li>
+                <li>COSC 457: Database Management Systems</li>
+            </ul>
+            <div>
+            <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
+                           <h2>Ongoing Course</h2>
+            <h4>Below are the current courses I am taking 💻</h4>
+         
+            <ul class="book">
+                <li>COSC 436: Object-Oreineted Design & Programming</li>
+                <li>COSC 484: Web-Based Programming</li>
+                <li>COSC 486: <em>(Special Topics)</em> Cryptocurrencies & Blockchain</li>
+            </ul>
+            </div>
+         </li>
+
+         <!-- Projects -->
+         <li class="pb-8">
+            <div class="p-8">
+               <h3 class="text-md font-medium">Projects</h3>
+               <h4 class="text-md opacity-60">iOS</h4>
+            </div>
+
+            <div class="flex overflow-x-scroll no-scrollbar gap-6 px-8">
+               <div class="flex flex-col gap-2">
+                  <a href="https://apps.apple.com/us/app/fourplay-date-with-friends/id1463551449">
+                     <div class="w-52 h-52">
+                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
+                           <img src="img/fp.png" height="105px" width="105px" />
+                        </div>
+                     </div>
+                  </a>
+                  <p class="text-sm opacity-40"><a href="">Fourplay</a></p>
+               </div>
+
+               <div class="flex flex-col gap-2">
+                  <a href="">
+                     <div class="w-52 h-52">
+                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
+                           <img src="img/darla.png" height="105px" width="105px" />
+                        </div>
+                     </div>
+                  </a>
+                  <p class="text-sm opacity-40"><a href="">Darla</a></p>
+               </div>
+
+               <div class="flex flex-col gap-2">
+                  <a href="https://apps.apple.com/us/app/corrie-health/id1212463532">
+                     <div class="w-52 h-52">
+                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
+                           <img src="img/corrie.png" height="105px" width="105px" />
+                        </div>
+                     </div>
+                  </a>
+                  <p class="text-sm opacity-40"><a href="https://www.corriehealth.com/">Corrie</a></p>
+               </div>
+
+               <div class="flex flex-col gap-2">
+                  <a href="https://apps.apple.com/us/app/sleepin-alarm/id1321674721">
+                     <div class="w-52 h-52">
+                        <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
+                           <img src="img/sleepin.png" height="105px" width="105px" />
+                        </div>
+                     </div>
+                  </a>
+                  <p class="text-sm opacity-40"><a href="https://apps.apple.com/us/app/sleepin-alarm/id1321674721">SleepIn</a></p>
+               </div>
+
+               <div class="flex flex-col gap-2">
+                  <div class="w-52 h-52">
+                     <div class="aspect-square bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 rounded-xl flex justify-center items-center highlight">
+                        <img src="img/smartaddress.png" height="145px" width="145px" />
+                     </div>
+                  </div>
+                  <p class="text-sm opacity-40"><a href="">SmartAddress</a> (acq, 2018)</p>
+               </div>
+            </div>
+         </li>
+
+         <!-- Fill in advising -->
+
+      </ul>
+
+      <!-- Links -->
+      <ul id="other" class="p-8">
+         <li class="pb-8">
+            <h3 class="text-md font-medium pb-4">Links</h3>
+            <ul class="text-md opacity-60 flex flex-col gap-1">
+               <li><a href="https://www.jalirani.com/files/jalirani_resume.pdf">Resume</a></li>
+               <li><a href="https://www.jalirani.com/files/jalirani_cv.pdf">CV</a></li>
+            </ul>
+         </li>
+
+         <li class="pb-8">
+            <h3 class="text-md font-medium pb-4">Student Resources</h3>
+            <ul class="text-md opacity-60 flex flex-col gap-1">
+               <li><a href="https://ohmygit.org/">Oh My Git!</a></li>
+               <li><a href="https://jalirani.com/students">My Website as a Student</a></li>
+            </ul>
+         </li>
+      </ul>
+   </body>
 </html>
